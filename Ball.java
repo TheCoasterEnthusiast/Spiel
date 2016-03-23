@@ -3,14 +3,14 @@ public class Ball{
   //member variables
   public int xPos;
   public int yPos;
-  public int xVelocityIncrement;
-  public int yVelocityIncrement;
+  public int xIncrement;
+  public int yIncrement;
   
   //constructor
-  public Ball(int xPos, int yPos, int xVelocityIncrement, int yVelocityIncrement) {
+  public Ball(int xPos, int yPos, int xIncrement, int yIncrement) {
     this.xPos = xPos;
     this.yPos = yPos;
-    this.xVelocityIncrement = xVelocityIncrement;
-    this.yVelocityIncrement = yVelocityIncrement;
+    this.xIncrement = xIncrement;
+    this.yIncrement = yIncrement;
   }
 }
