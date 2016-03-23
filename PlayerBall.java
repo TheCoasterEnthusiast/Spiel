@@ -7,7 +7,7 @@ public class PlayerBall extends Ball{
   // etc
   
   //constructor
-    public PlayerBall(int xPos, int yPos, int xVelocityIncrement, int yVelocityIncrement) {
-    super(xPos, yPos, xVelocityIncrement, yVelocityIncrement);
+    public PlayerBall(int xPos, int yPos, int xIncrement, int yIncrement) {
+    super(xPos, yPos, xIncrement, yIncrement);
   }
 }
